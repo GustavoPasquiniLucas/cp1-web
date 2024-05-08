@@ -1,2 +1,54 @@
-body {font: 12pt Arial;}
-button {font-size: 12pt; padding: 30px;}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e2dede;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+
+  .resultado {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .resultado p {
+    margin: 0;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Verde escuro */
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 18px;
+    }
+  
+    .resultado {
+      width: 100%;
+    }
+  }
+  
